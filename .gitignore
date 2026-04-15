@@ -214,3 +214,6 @@ __marimo__/
 /rsa_key.p8
 /rsa_key.pub
 /.user.yml
+
+# Environment variables file
+.env

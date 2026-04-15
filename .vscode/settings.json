@@ -1,0 +1,3 @@
+{
+    "dbt.dbtPythonPathOverride": "/Users/theovl/Projects/dbt_sandbox/complete-dbt-bootcamp-zero-to-hero/.venv/bin/python3"
+}

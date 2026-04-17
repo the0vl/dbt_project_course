@@ -1,8 +1,8 @@
 {
-  "python.defaultInterpreterPath": "./complete-dbt-bootcamp-zero-to-hero/.venv/bin/python",
-  "python.envFile": "${workspaceFolder}/.env",
+  "python.defaultInterpreterPath": ".venv/bin/python",
+  "python.envFile": ".env",
   "python.terminal.useEnvFile": true,
-  "dbt.projectDir": "complete-dbt-bootcamp-zero-to-hero/airbnb",
+  "dbt.projectDir": "airbnb",
   "terminal.integrated.inheritEnv": true,
   "files.associations": {
     "*.sql": "jinja-sql"
@@ -40,5 +40,5 @@
         }
       }
     ]
-  }
+}
 }

@@ -42,10 +42,11 @@ htmlcov/
 !.vscode/tasks.json
 !.vscode/launch.json
 *.code-workspace
+.env
 
 # OS generated
 Thumbs.db
 
 # Temp / Backup
 *~
-tmp*/
+preset-instructions.md

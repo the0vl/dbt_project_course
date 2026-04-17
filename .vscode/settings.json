@@ -1,3 +1,44 @@
 {
-    "dbt.dbtPythonPathOverride": "/Users/theovl/Projects/dbt_sandbox/complete-dbt-bootcamp-zero-to-hero/.venv/bin/python3"
+  "python.defaultInterpreterPath": "./complete-dbt-bootcamp-zero-to-hero/.venv/bin/python",
+  "python.envFile": "${workspaceFolder}/.env",
+  "python.terminal.useEnvFile": true,
+  "dbt.projectDir": "complete-dbt-bootcamp-zero-to-hero/airbnb",
+  "terminal.integrated.inheritEnv": true,
+  "files.associations": {
+    "*.sql": "jinja-sql"
+  },
+  "yaml.schemas": {
+    "https://raw.githubusercontent.com/dbt-labs/dbt-jsonschema/main/schemas/dbt_project.json": "**/dbt_project.yml"
+  },
+  "yaml.customTags": [
+    "!Tag",
+    "!include",
+    "!import",
+    "!export"
+  ],
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "name": "YAML keys",
+        "scope": [
+          "entity.name.tag.yaml",
+          "meta.mapping.key.yaml"
+        ],
+        "settings": {
+          "foreground": "#4EA1FF"
+        }
+      },
+      {
+        "name": "YAML values",
+        "scope": [
+          "string.unquoted.yaml",
+          "string.quoted.single.yaml",
+          "string.quoted.double.yaml"
+        ],
+        "settings": {
+          "foreground": "#FF9D3F"
+        }
+      }
+    ]
+  }
 }

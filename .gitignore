@@ -50,3 +50,7 @@ Thumbs.db
 # Temp / Backup
 *~
 preset-instructions.md
+
+*.p8.pem
+*.pub
+*.p8

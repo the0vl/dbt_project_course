@@ -3,8 +3,7 @@ models:
     data_tests:
       - minimum_row_count:
           min_row_count: 10000000
-          config:
-            severity: warn
+          severity: warn
 
     columns:
       - name: listing_id
